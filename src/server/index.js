@@ -47,7 +47,3 @@ app.post('/api', async (req, res) => {
       console.log(error);
     }
   })
-  function testServer () {
-    return ('Server is working normally')
-  }
-export{ testServer }
