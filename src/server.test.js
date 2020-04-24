@@ -1,6 +1,6 @@
-const dotenv = require('dotenv');
-dotenv.config();
+import "babel-polyfill"
+import{ testServer } from './server/index'
+const value = testServer();
 test('testing if the api object is storing something', ()=>{
-    expect(process.env.API_ID).not.toBeUndefined();
-    expect(process.env.API_KEY).not.toBeUndefined();
+    expect(value).toMatch(/Server is working normally/);
 })
