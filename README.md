@@ -11,8 +11,8 @@ process and analyze large amounts of natural language data.
 
 You should have all the dependencies installed via npm or yarn.
 
-[] Initialize the webpack by running the following command on the terminal : 
+-[] Initialize the webpack by running the following command on the terminal : 
 'npm run build-prod'
-[] start your server by using another terminal and using following command(on the './src/server' directory) : 
+-[] start your server by using another terminal and using following command(on the './src/server' directory) : 
 'node index.js'
-[] you should see the api working.
+-[] you should see the api working.
