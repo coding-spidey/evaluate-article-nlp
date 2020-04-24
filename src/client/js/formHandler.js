@@ -7,6 +7,9 @@ function handleSubmit(event) {
     if(isValidUrl(formText)){
         console.group('It is a valid url')
     }
+    if(!isValidUrl(formText)) {
+        alert('Not a valid url')
+    }
     console.log("::: Form Submitted :::")
     
     fetch('http://localhost:8081/api',
