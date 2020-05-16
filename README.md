@@ -25,6 +25,7 @@ There are few steps you need to do before you can get your app working, these ar
 
 - [ ] next you need to create a .env file in your server's root directory, and store your credentials in that file like this :
 API_ID=**************************
+
 API_KEY=**************************
 
 - [ ] you can now access the api through the server, and you are good to go.
